@@ -14,8 +14,8 @@
 }
 
 h1 {
-    font-size: calc(20px + 18vh);
-    line-height: calc(20px + 20vh);
+    font-size: 32px;
+    /* line-height: calc(20px + 20vh); */
   /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
       0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
     color: #fccaff; */
