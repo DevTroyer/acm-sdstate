@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/acm-sdstate/static/css/main.7042a028.chunk.css",
+    "main.css": "/acm-sdstate/static/css/main.0eeb93ab.chunk.css",
     "main.js": "/acm-sdstate/static/js/main.28c8a1c3.chunk.js",
     "main.js.map": "/acm-sdstate/static/js/main.28c8a1c3.chunk.js.map",
     "runtime-main.js": "/acm-sdstate/static/js/runtime-main.8cffa2ad.js",
@@ -9,10 +9,10 @@
     "static/js/2.8ac42354.chunk.js": "/acm-sdstate/static/js/2.8ac42354.chunk.js",
     "static/js/2.8ac42354.chunk.js.map": "/acm-sdstate/static/js/2.8ac42354.chunk.js.map",
     "index.html": "/acm-sdstate/index.html",
-    "precache-manifest.e9959a65bbcf5fa2cfca187a4903d4bf.js": "/acm-sdstate/precache-manifest.e9959a65bbcf5fa2cfca187a4903d4bf.js",
+    "precache-manifest.d8a636138ee9efe46d1808af603f60d7.js": "/acm-sdstate/precache-manifest.d8a636138ee9efe46d1808af603f60d7.js",
     "service-worker.js": "/acm-sdstate/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/acm-sdstate/static/css/2.de424728.chunk.css.map",
-    "static/css/main.7042a028.chunk.css.map": "/acm-sdstate/static/css/main.7042a028.chunk.css.map",
+    "static/css/main.0eeb93ab.chunk.css.map": "/acm-sdstate/static/css/main.0eeb93ab.chunk.css.map",
     "static/js/2.8ac42354.chunk.js.LICENSE.txt": "/acm-sdstate/static/js/2.8ac42354.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/acm-sdstate/static/media/banner3.26a1029e.jpg",
     "static/media/austin.jpg": "/acm-sdstate/static/media/austin.5955ca0f.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.8cffa2ad.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.8ac42354.chunk.js",
-    "static/css/main.7042a028.chunk.css",
+    "static/css/main.0eeb93ab.chunk.css",
     "static/js/main.28c8a1c3.chunk.js"
   ]
 }
