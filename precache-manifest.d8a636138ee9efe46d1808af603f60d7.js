@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ebd4c92d391ec4c3ede6141ebf364ae",
+    "revision": "f965dd9117f0078cfa69cf56e2d7e88d",
     "url": "/acm-sdstate/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acm-sdstate/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "dde79b4274d1fdc540d7",
-    "url": "/acm-sdstate/static/css/main.7042a028.chunk.css"
+    "revision": "60d851008a1c534d3558",
+    "url": "/acm-sdstate/static/css/main.0eeb93ab.chunk.css"
   },
   {
     "revision": "cdc6a1b60a0f145931d9",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acm-sdstate/static/js/2.8ac42354.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dde79b4274d1fdc540d7",
+    "revision": "60d851008a1c534d3558",
     "url": "/acm-sdstate/static/js/main.28c8a1c3.chunk.js"
   },
   {
