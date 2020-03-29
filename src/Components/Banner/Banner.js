@@ -4,7 +4,7 @@ import Typical from 'react-typical';
 
 const banner = props => {
     return (
-        <div className="banner">
+        <div className="banner" id="banner">
             <div className="center">
                 <h1 className="shadow banner-quote">
                     <Typical steps={[

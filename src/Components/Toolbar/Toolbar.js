@@ -9,7 +9,7 @@ const toolbar = props => (
                 <SideDrawerToggleButton click={props.sideDrawerClickHandler}/>
             </div>
             <div className="toolbar-logo">
-                <a href="/">
+                <a href="#banner">
                     <span className="white">ACM</span>
                     <span className="yellow">@</span>
                     <span className="white">SDState</span>
