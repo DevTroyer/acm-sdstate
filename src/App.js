@@ -8,6 +8,7 @@ import Events from './Components/Sections/Events/Events.js';
 import Officers from './Components/Sections/Officers/Officers.js';
 import DevTools from './Components/Sections/DevTools/DevTools.js';
 import Tutoring from './Components/Sections/Tutoring/Tutoring.js';
+import Typical from 'react-typical';
 
 import './assets/css/fonts.css';
 import './App.css';
