@@ -15,7 +15,7 @@ const sideDrawer = props => {
                 <li><a href="#events">Events</a></li>
                 <li><a href="#officers">Officers</a></li>
                 <li><a href="#devtools">DevTools</a></li>
-                <li><a href="#devtools">Tutoring</a></li>
+                <li><a href="#tutoring">Tutoring</a></li>
             </ul>
         </nav>
     );

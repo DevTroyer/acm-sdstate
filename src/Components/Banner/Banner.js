@@ -7,7 +7,7 @@ const banner = props => {
         <div className="banner">
             <div className="center">
                 <h1 className="shadow banner-quote">
-                    <Typical wrapper='b' steps={[
+                    <Typical steps={[
                         '"Sometimes it is the people no one can imagine anything of who do the things no one can imagine."'
                     ]}/>
                 </h1>

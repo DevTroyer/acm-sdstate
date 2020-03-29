@@ -33,6 +33,7 @@
     color: #FFFFFF;
     position: absolute;
     left: 50%;
+    margin-left: -2em;
     bottom: 0;
     height: 70px;
     background-image: url("./arrow.svg");
