@@ -9,14 +9,20 @@ const toolbar = props => (
                 <SideDrawerToggleButton click={props.sideDrawerClickHandler}/>
             </div>
             <div className="toolbar-logo">
-                <a href="/">ACM@SDState<span className="toolbar-logo-blinking-cursor">|</span></a>
+                <a href="/">
+                    <span className="white">ACM</span>
+                    <span className="yellow">@</span>
+                    <span className="white">SDState</span>
+                    <span className="blinking-cursor">|</span>
+                </a>
             </div>
             <div className="spacer"/>
             <div className="toolbar-navigation-items">
                 <ul>
-                    <li><a href="/">Events</a></li>
-                    <li><a href="/">Officers</a></li>
-                    <li><a href="/">DevTools</a></li>
+                    <li><a href="#events" className="white">Events</a></li>
+                    <li><a href="#officers" className="white">Officers</a></li>
+                    <li><a href="#devtools" className="white">DevTools</a></li>
+                    <li><a href="#tutoring" className="white">Tutoring</a></li>
                 </ul>
             </div>
         </nav>

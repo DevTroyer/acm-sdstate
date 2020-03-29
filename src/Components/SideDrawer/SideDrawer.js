@@ -10,11 +10,13 @@ const sideDrawer = props => {
 
     return (
         <nav className={drawerClasses}>
-        <ul>
-            <li><a href="/">Events</a></li>
-            <li><a href="/">Officers</a></li>
-            <li><a href="/">DevTools</a></li>
-        </ul>
+            <img className="acm-image" src="https://i.ibb.co/xmZgp0w/acm-desktopcta.jpg"/>
+            <ul>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#officers">Officers</a></li>
+                <li><a href="#devtools">DevTools</a></li>
+                <li><a href="#devtools">Tutoring</a></li>
+            </ul>
         </nav>
     );
 };

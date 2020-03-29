@@ -1,0 +1,14 @@
+.officers .card {
+    margin: 20px 0px;
+    background-color: rgb(8, 12, 41);
+    color: #FFFFFF;
+}
+
+.officers .card img {
+    border-radius: 100%;
+}
+
+.title {
+    background-color: rgb(246, 246, 92);
+    color: rgb(8, 12, 41);
+}

@@ -1,0 +1,41 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./banner3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.shadow {
+    text-shadow: 2px 2px black;
+}
+
+.banner-quote {
+    color: rgb(246, 246, 92);
+}
+
+.banner-signature {
+    color: rgb(246, 246, 92);
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 50px;
+}
+
+.scroll, .scroll:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 70px;
+    background-image: url("./arrow.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}

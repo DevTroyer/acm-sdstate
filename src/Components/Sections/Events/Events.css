@@ -1,0 +1,12 @@
+.container {
+    color: rgb(8, 12, 41);
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+}
+
+.events .card {
+    margin: 15px 0px;
+}

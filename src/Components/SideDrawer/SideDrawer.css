@@ -1,6 +1,6 @@
 .side-drawer {
     height: 100%;
-    background: #FFFFFF;
+    background: #042E46;
     box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
@@ -16,12 +16,20 @@
     transform: translateX(0);
 }
 
+.acm-image {
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
 .side-drawer ul {
-    height: 100%;
+    position: relative;
+    top: 60px;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .side-drawer li {
@@ -29,12 +37,12 @@
 }
 
 .side-drawer a {
-    color: #521751;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .side-drawer a:hover,
 .side-drawer a:active {
-    color: #FA923F;
+    color: rgb(255, 251, 0);
 }
