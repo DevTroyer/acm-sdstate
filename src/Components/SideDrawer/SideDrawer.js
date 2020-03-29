@@ -1,5 +1,6 @@
 import React from 'react';
 import './SideDrawer.css';
+import acm from '../../assets/images/acm.jpg';
 
 const sideDrawer = props => {
     let drawerClasses = ['side-drawer'];
@@ -10,7 +11,7 @@ const sideDrawer = props => {
 
     return (
         <nav className={drawerClasses}>
-            <img className="acm-image" src="https://i.ibb.co/xmZgp0w/acm-desktopcta.jpg"/>
+            <img className="acm-image" src={acm}/>
             <ul>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#officers">Officers</a></li>
