@@ -8,6 +8,7 @@ import Events from './Components/Sections/Events/Events.js';
 import Officers from './Components/Sections/Officers/Officers.js';
 import DevTools from './Components/Sections/DevTools/DevTools.js';
 import Tutoring from './Components/Sections/Tutoring/Tutoring.js';
+import Footer from './Components/Footer/Footer.js';
 import Typical from 'react-typical';
 
 import './assets/css/fonts.css';
@@ -35,19 +36,20 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
 
-      return (
-        <div className="background-yellow" style={{height: '100%'}}>
-          <Toolbar sideDrawerClickHandler={this.sideDrawerToggleButtonClickHandler}/>
-          <SideDrawer show={this.state.sideDrawerOpen}/>
-          {backdrop}
-          <Banner/>
-          <Events/>
-          <Officers/>
-          <DevTools/>
-          <Tutoring/>
-        </div>
-      );
-    }
+    return (
+      <div className="background-yellow" style={{height: '100%'}}>
+        <Toolbar sideDrawerClickHandler={this.sideDrawerToggleButtonClickHandler}/>
+        <SideDrawer show={this.state.sideDrawerOpen}/>
+        {backdrop}
+        <Banner/>
+        <Events/>
+        <Officers/>
+        <DevTools/>
+        <Tutoring/>
+        <Footer/>
+      </div>
+    );
   }
+}
 
 export default App;

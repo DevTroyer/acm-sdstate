@@ -4,6 +4,9 @@
     background: rgb(8, 12, 41);
     height: 60px;
     z-index: 9999;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+    -moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+    box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
 }
 
 .toolbar-navigation {
