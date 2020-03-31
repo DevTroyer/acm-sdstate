@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import Toolbar from './Components/Toolbar/Toolbar.js';
 import SideDrawer from './Components/SideDrawer/SideDrawer.js';
 import Backdrop from './Components/Backdrop/Backdrop.js';
@@ -9,7 +8,6 @@ import Officers from './Components/Sections/Officers/Officers.js';
 import DevTools from './Components/Sections/DevTools/DevTools.js';
 import Tutoring from './Components/Sections/Tutoring/Tutoring.js';
 import Footer from './Components/Footer/Footer.js';
-import Typical from 'react-typical';
 
 import './assets/css/fonts.css';
 import './App.css';

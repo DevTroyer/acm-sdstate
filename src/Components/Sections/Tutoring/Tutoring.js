@@ -9,7 +9,7 @@ const tutoring = props => {
                 <h1 className="center glow">--- Tutoring ---</h1>
             </div>
             <div className="container" id="tutoring">
-                <img src={schedule}/>
+                <img src={schedule} alt="Tutoring schedule"/>
             </div>
         </div>
     );

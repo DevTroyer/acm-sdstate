@@ -14,7 +14,7 @@ const events = props => {
             <div className="container" id="events">
                 <div className="events">
                     <div className="card">
-                        <img className="card-img-top" src={git} alt="Card image cap"/>
+                        <img className="card-img-top" src={git} alt="Git logo"/>
                         <div className="card-body">
                             <h5 className="card-title">Git Version Control System Presentation by Austin Hochhalter</h5>
                             <h6 className="card-subtitle mb-2 text-muted">March 4th @ 5:30pm in DEH 118</h6>
@@ -22,7 +22,7 @@ const events = props => {
                         </div>
                     </div>
                     <div className="card">
-                        <img className="card-img-top" src={carsforsale} alt="Card image cap"/>
+                        <img className="card-img-top" src={carsforsale} alt="Carsforsale.com headquarters"/>
                         <div className="card-body">
                             <h5 className="card-title">Carsforsale.com Software Architect Guest Speaker, Harshith Keni</h5>
                             <h6 className="card-subtitle mb-2 text-muted">February 19th @ 5:30pm in DEH 118</h6>
@@ -30,7 +30,7 @@ const events = props => {
                         </div>
                     </div>
                     <div className="card">
-                        <img className="card-img-top" src={htmlcss} alt="Card image cap"/>
+                        <img className="card-img-top" src={htmlcss} alt="HTML & CSS"/>
                         <div className="card-body">
                             <h5 className="card-title">Web Development Presentation Using HTML & CSS by Tucker Troyer</h5>
                             <h6 className="card-subtitle mb-2 text-muted">February 5th @ 5:30pm in DEH 118</h6>
@@ -38,7 +38,7 @@ const events = props => {
                         </div>
                     </div>
                     <div className="card">
-                        <img className="card-img-top" src={pizza} alt="Card image cap"/>
+                        <img className="card-img-top" src={pizza} alt="Papa John's pizza"/>
                         <div className="card-body">
                             <h5 className="card-title">ACM Spring 2020 Kickoff Meeting</h5>
                             <h6 className="card-subtitle mb-2 text-muted">January 22nd @ 5:30pm in DEH 118</h6>

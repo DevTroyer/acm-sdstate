@@ -11,7 +11,7 @@ const sideDrawer = props => {
 
     return (
         <nav className={drawerClasses}>
-            <img className="acm-image" src={acm}/>
+            <img className="acm-image" src={acm} alt="ACM logo"/>
             <ul>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#officers">Officers</a></li>
