@@ -9,7 +9,7 @@ const events = props => {
     return (
         <div className="section" id="events-section">
             <div className="title">
-                <h1 className="center">--- Events ---</h1>
+                <h1 className="center glow">--- Events ---</h1>
             </div>
             <div className="container" id="events">
                 <div className="events">

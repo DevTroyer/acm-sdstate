@@ -9,7 +9,7 @@ const officers = props => {
     return (
         <div className="section">
             <div className="title">
-                <h1 className="center">--- Officers ---</h1>
+                <h1 className="center glow">--- Officers ---</h1>
             </div>
             <div className="container" id="officers">
                 <div className="officers row">

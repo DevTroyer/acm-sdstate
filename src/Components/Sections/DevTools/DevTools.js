@@ -6,7 +6,7 @@ const devtools = props => {
     return (
         <div className="section" id="devtools-section">
             <div className="title">
-                <h1 className="center">--- DevTools ---</h1>
+                <h1 className="center glow">--- DevTools ---</h1>
             </div>
             <div className="container" id="devtools">
                 <div className="devtools-section">
