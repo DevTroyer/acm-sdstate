@@ -1,9 +1,6 @@
 import React from 'react';
 import './Events.css';
-import git from '../../../assets/images/git.png';
-import carsforsale from '../../../assets/images/carsforsale.jpg';
-import htmlcss from '../../../assets/images/htmlcss.png';
-import pizza from '../../../assets/images/pizza.webp';
+import {EVENTS} from '../../../data/events.js';
 
 const events = props => {
     return (
@@ -13,38 +10,16 @@ const events = props => {
             </div>
             <div className="container" id="events">
                 <div className="events">
-                    <div className="card">
-                        <img className="card-img-top" src={git} alt="Git logo"/>
-                        <div className="card-body">
-                            <h5 className="card-title">Git Version Control System Presentation by Austin Hochhalter</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">March 4th @ 5:30pm in DEH 118</h6>
-                            <p className="card-text">A presentation on Git version control system and GitHub.</p>
+                    {EVENTS.map(event => (
+                        <div className="card">
+                            <img className="card-img-top" src={event.image} alt="Flexbox"/>
+                            <div className="card-body">
+                                <h5 className="card-title">{event.title}</h5>
+                                <h6 className="card-subtitle mb-2 text-muted">{event.date}</h6>
+                                <p className="card-text">{event.description}</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card">
-                        <img className="card-img-top" src={carsforsale} alt="Carsforsale.com headquarters"/>
-                        <div className="card-body">
-                            <h5 className="card-title">Carsforsale.com Software Architect Guest Speaker, Harshith Keni</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">February 19th @ 5:30pm in DEH 118</h6>
-                            <p className="card-text">A presentation about life as a developer at Carsforsale.com.</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img className="card-img-top" src={htmlcss} alt="HTML & CSS"/>
-                        <div className="card-body">
-                            <h5 className="card-title">Web Development Presentation Using HTML & CSS by Tucker Troyer</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">February 5th @ 5:30pm in DEH 118</h6>
-                            <p className="card-text">A static website development walk-through tutorial using HTML & CSS.</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img className="card-img-top" src={pizza} alt="Papa John's pizza"/>
-                        <div className="card-body">
-                            <h5 className="card-title">ACM Spring 2020 Kickoff Meeting</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">January 22nd @ 5:30pm in DEH 118</h6>
-                            <p className="card-text">Kickoff meeting to start the semester!</p>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 footer {
-    background: rgb(8, 12, 41);
+    background: rgb(3, 4, 15);
     height: 60px;
     -webkit-box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.75);
@@ -17,4 +17,22 @@ footer {
     font-size: 15px;
     color: #FFFFFF;
     margin: auto;
+}
+
+.icons {
+    font-size: 25px;
+}
+
+#react {
+    color: rgb(0, 225, 255);
+}
+
+#bootstrap {
+    color: rgb(132, 0, 255);
+}
+
+@media (max-width: 600px) {
+    .footer-text {
+        font-size: 12px;
+    } 
 }

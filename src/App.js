@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import Toolbar from './Components/Toolbar/Toolbar.js';
-import SideDrawer from './Components/SideDrawer/SideDrawer.js';
-import Backdrop from './Components/Backdrop/Backdrop.js';
-import Banner from './Components/Banner/Banner.js';
-import Events from './Components/Sections/Events/Events.js';
-import Officers from './Components/Sections/Officers/Officers.js';
-import DevTools from './Components/Sections/DevTools/DevTools.js';
-import Tutoring from './Components/Sections/Tutoring/Tutoring.js';
-import Footer from './Components/Footer/Footer.js';
+import Toolbar from './components/Toolbar/Toolbar.js';
+import SideDrawer from './components/SideDrawer/SideDrawer.js';
+import Backdrop from './components/Backdrop/Backdrop.js';
+import Banner from './components/Banner/Banner.js';
+import Events from './components/Sections/Events/Events.js';
+import Officers from './components/Sections/Officers/Officers.js';
+import DevTools from './components/Sections/DevTools/DevTools.js';
+import Tutoring from './components/Sections/Tutoring/Tutoring.js';
+import Footer from './components/Footer/Footer.js';
 
 import './assets/css/fonts.css';
 import './App.css';
