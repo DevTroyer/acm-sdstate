@@ -23,7 +23,7 @@ const devtools = props => {
                                                 content.description
                                             ]}/>
                                         <br/>
-                                        <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-primary">{content.button}</button></a>
+                                        <a href={content.reference} target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-primary">{content.button}</button></a>
                                     </div>
                                 </li>
                             ))}
